@@ -9,8 +9,10 @@ readonly QUERIES=(
   "technology"
   "space"
   "architecture"
-  "abstract"
-  "minimal"
+  "science"
+  "cyberpunk"
+  "cityscape"
+  "futuristic"
 )
 readonly UTM_SOURCE="faizanfirdousi"
 readonly MAX_RETRIES=5
