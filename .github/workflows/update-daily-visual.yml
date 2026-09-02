@@ -5,6 +5,10 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+concurrency:
+  group: update-daily-visual
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -15,6 +19,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Update daily visual from Unsplash
         env:
@@ -34,4 +40,6 @@ jobs:
           fi
 
           git commit -m "Update daily visual from Unsplash"
-          git push
+          git pull --rebase -X theirs origin main
+          git push origin main
+
