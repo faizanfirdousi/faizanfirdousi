@@ -6,7 +6,7 @@ readonly LAST_ID_FILE=".github/unsplash-last-id"
 readonly MARKER_START="<!-- DAILY_VISUAL_START -->"
 readonly MARKER_END="<!-- DAILY_VISUAL_END -->"
 readonly QUERIES=(
-  "technology"
+   "technology"
   "space"
   "architecture"
   "science"
