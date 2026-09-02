@@ -61,7 +61,7 @@ fetch_random_photo() {
   curl -sf \
     -H "Authorization: Client-ID ${UNSPLASH_ACCESS_KEY}" \
     -H "Accept-Version: v1" \
-    "https://api.unsplash.com/photos/random?query=${QUERY}&content_filter=high"
+    "https://api.unsplash.com/photos/random?query=${QUERY}&content_filter=high&orientation=landscape"
 }
 
 validate_photo_json() {
