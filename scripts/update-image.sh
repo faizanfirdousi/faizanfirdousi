@@ -198,7 +198,7 @@ main() {
   fi
 
   section_file="$(mktemp)"
-  trap 'rm -f "$section_file"' EXIT
+  trap "rm -f '$section_file'" EXIT
 
   write_section_file "$response" "$section_file"
   replace_readme_section "$section_file"
