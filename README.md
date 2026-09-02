@@ -1,9 +1,32 @@
 <h1 align="left">Hi, I'm Faizan Firdousi</h1>
 
 <p align="left">
-  A curious Computer Science student who loves learning, building, and tinkering with cool stuff —
+  A curious Computer Science student who loves learning, building, and tinkering with cool stuff,
   always digging into how things work underneath.
 </p>
+
+## Today's Highlight
+
+<p align="center">
+  <em>A fresh curated photo every day, updated automatically by a GitHub Actions cron job.</em>
+</p>
+
+<!-- DAILY_VISUAL_START -->
+<div align="center">
+  <img
+    src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80"
+    alt="Daily highlight"
+    style="display: block; margin: 0 auto; max-width: 800px; max-height: 420px; width: 100%; height: auto; object-fit: contain; border-radius: 8px;"
+  />
+
+  <p align="center">
+    <sub>
+      Photo by <a href="https://unsplash.com/@NASA?utm_source=faizanfirdousi&utm_medium=referral">NASA</a> on
+      <a href="https://unsplash.com/?utm_source=faizanfirdousi&utm_medium=referral">Unsplash</a>
+    </sub>
+  </p>
+</div>
+<!-- DAILY_VISUAL_END -->
 
 ---
 
@@ -110,22 +133,3 @@
     <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
   </a>
 </div>
-
----
-
-## Today's Highlight
-
-<p align="center">
-  <em>A fresh technology-themed photo every day — updated automatically by a GitHub Actions cron job.</em>
-</p>
-
-<!-- DAILY_VISUAL_START -->
-<div align="center">
-  <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80" width="800" alt="Daily highlight" />
-
-  <sub>
-    Photo by <a href="https://unsplash.com/@NASA?utm_source=faizanfirdousi&utm_medium=referral">NASA</a> on
-    <a href="https://unsplash.com/?utm_source=faizanfirdousi&utm_medium=referral">Unsplash</a>
-  </sub>
-</div>
-<!-- DAILY_VISUAL_END -->

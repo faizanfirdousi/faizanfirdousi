@@ -5,9 +5,17 @@ readonly README="README.md"
 readonly LAST_ID_FILE=".github/unsplash-last-id"
 readonly MARKER_START="<!-- DAILY_VISUAL_START -->"
 readonly MARKER_END="<!-- DAILY_VISUAL_END -->"
-readonly QUERY="technology"
+readonly QUERIES=(
+  "technology"
+  "space"
+  "architecture"
+  "abstract"
+  "minimal"
+)
 readonly UTM_SOURCE="faizanfirdousi"
 readonly MAX_RETRIES=5
+
+QUERY=""
 
 log() {
   echo "[update-image] $*"
@@ -42,11 +50,16 @@ add_utm() {
   printf '%s%sutm_source=%s&utm_medium=referral' "$url" "$separator" "$UTM_SOURCE"
 }
 
+select_query() {
+  QUERY="${QUERIES[$RANDOM % ${#QUERIES[@]}]}"
+  log "Selected query: ${QUERY}"
+}
+
 fetch_random_photo() {
   curl -sf \
     -H "Authorization: Client-ID ${UNSPLASH_ACCESS_KEY}" \
     -H "Accept-Version: v1" \
-    "https://api.unsplash.com/photos/random?query=${QUERY}&orientation=landscape&content_filter=high"
+    "https://api.unsplash.com/photos/random?query=${QUERY}&content_filter=high"
 }
 
 validate_photo_json() {
@@ -94,12 +107,18 @@ write_section_file() {
   cat > "$section_file" <<EOF
 ${MARKER_START}
 <div align="center">
-  <img src="${image_url}" width="800" alt="Daily highlight" />
+  <img
+    src="${image_url}"
+    alt="Daily highlight"
+    style="display: block; margin: 0 auto; max-width: 800px; max-height: 420px; width: 100%; height: auto; object-fit: contain; border-radius: 8px;"
+  />
 
-  <sub>
-    Photo by <a href="${photographer_url_with_utm}">${photographer_name}</a> on
-    <a href="${unsplash_home_url}">Unsplash</a>
-  </sub>
+  <p align="center">
+    <sub>
+      Photo by <a href="${photographer_url_with_utm}">${photographer_name}</a> on
+      <a href="${unsplash_home_url}">Unsplash</a>
+    </sub>
+  </p>
 </div>
 ${MARKER_END}
 EOF
@@ -151,6 +170,8 @@ main() {
     fail "README file not found: $README"
   fi
 
+  select_query
+
   local last_id="" response="" photo_id="" attempt section_file
 
   last_id="$(get_last_photo_id)"
@@ -182,7 +203,7 @@ main() {
   write_section_file "$response" "$section_file"
   replace_readme_section "$section_file"
 
-  log "Updated README with Unsplash photo ${photo_id}"
+  log "Updated README with Unsplash photo ${photo_id} (${QUERY})"
 }
 
 main "$@"
