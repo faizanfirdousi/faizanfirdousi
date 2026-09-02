@@ -93,10 +93,8 @@ write_section_file() {
 
   cat > "$section_file" <<EOF
 ${MARKER_START}
-## Today's Visual
-
 <div align="center">
-  <img src="${image_url}" width="800" alt="Daily visual" />
+  <img src="${image_url}" width="800" alt="Daily highlight" />
 
   <sub>
     Photo by <a href="${photographer_url_with_utm}">${photographer_name}</a> on
