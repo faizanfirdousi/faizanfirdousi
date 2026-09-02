@@ -1,5 +1,18 @@
 <p align="left">Hello, I'm Faizan, a curious Computer Science student who mainly loves learning and tinkering with cool stuff, and is always curious to know how things work underneath</p>
 
+<!-- DAILY_VISUAL_START -->
+## Today's Visual
+
+<div align="center">
+  <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80" width="800" alt="Daily visual" />
+
+  <sub>
+    Photo by <a href="https://unsplash.com/@NASA?utm_source=faizanfirdousi&utm_medium=referral">NASA</a> on
+    <a href="https://unsplash.com/?utm_source=faizanfirdousi&utm_medium=referral">Unsplash</a>
+  </sub>
+</div>
+<!-- DAILY_VISUAL_END -->
+
 ###
 
 <div align="center">
