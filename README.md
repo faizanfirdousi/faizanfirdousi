@@ -14,14 +14,14 @@
 <!-- DAILY_VISUAL_START -->
 <div align="center">
   <img
-    src="https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUyNzYzfDB8MXxyYW5kb218fHx8fHx8fHwxNzkxNTE5OTQ5fA&ixlib=rb-4.1.0&q=80&w=1080"
+    src="https://images.unsplash.com/photo-1614727187346-ec3a009092b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUyNzYzfDB8MXxyYW5kb218fHx8fHx8fHwxNzkxNjA1NDcxfA&ixlib=rb-4.1.0&q=80&w=1080"
     alt="Daily highlight"
     style="display: block; margin: 0 auto; max-width: 800px; max-height: 420px; width: 100%; height: auto; object-fit: contain; border-radius: 8px;"
   />
 
   <p align="center">
     <sub>
-      Photo by <a href="https://unsplash.com/@matthewhenry?utm_source=faizanfirdousi&utm_medium=referral">Matthew Henry</a> on
+      Photo by <a href="https://unsplash.com/@nasa?utm_source=faizanfirdousi&utm_medium=referral">NASA</a> on
       <a href="https://unsplash.com/?utm_source=faizanfirdousi&utm_medium=referral">Unsplash</a>
     </sub>
   </p>
