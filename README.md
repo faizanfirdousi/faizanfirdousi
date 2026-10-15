@@ -14,14 +14,14 @@
 <!-- DAILY_VISUAL_START -->
 <div align="center">
   <img
-    src="https://images.unsplash.com/photo-1789442311250-c5f4c7d44556?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUyNzYzfDB8MXxyYW5kb218fHx8fHx8fHwxNzkxOTQ4Mjc0fA&ixlib=rb-4.1.0&q=80&w=1080"
+    src="https://images.unsplash.com/photo-1618385455730-2571c38966b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUyNzYzfDB8MXxyYW5kb218fHx8fHx8fHwxNzkyMDMzMzk2fA&ixlib=rb-4.1.0&q=80&w=1080"
     alt="Daily highlight"
     style="display: block; margin: 0 auto; max-width: 800px; max-height: 420px; width: 100%; height: auto; object-fit: contain; border-radius: 8px;"
   />
 
   <p align="center">
     <sub>
-      Photo by <a href="https://unsplash.com/@matreding?utm_source=faizanfirdousi&utm_medium=referral">Mathias Reding</a> on
+      Photo by <a href="https://unsplash.com/@followtherabbit?utm_source=faizanfirdousi&utm_medium=referral">Evgeniy Surzhan</a> on
       <a href="https://unsplash.com/?utm_source=faizanfirdousi&utm_medium=referral">Unsplash</a>
     </sub>
   </p>
