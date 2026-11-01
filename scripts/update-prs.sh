@@ -41,7 +41,7 @@ count_items() {
   echo "$json" | jq '.total_count'
 }
 
-# Get N most-recent PRs from a search result JSON (sorted by updated_at desc)
+# Get N most-recent PRs — status resolved inside jq to avoid null/empty TSV ambiguity
 recent_prs() {
   local json="$1"
   local limit="$2"
@@ -51,8 +51,10 @@ recent_prs() {
       .html_url,
       (.repository_url | split("/") | .[-2] + "/" + .[-1]),
       .title,
-      .state,
-      (.pull_request.merged_at // ""),
+      (if .pull_request.merged_at != null then "merged"
+       elif .state == "open"              then "open"
+       else                                   "closed"
+       end),
       (.updated_at | split("T")[0])
     ] | @tsv
   '
@@ -63,16 +65,14 @@ build_pr_rows() {
   local limit="$2"
   local rows=""
 
-  while IFS=$'\t' read -r url repo title state merged_at date; do
-    # Determine badge
+  # status is now a clean string: "open" | "merged" | "closed" — resolved by jq
+  while IFS=$'\t' read -r url repo title status date; do
     local badge
-    if [[ "$merged_at" != "" && "$merged_at" != "null" ]]; then
-      badge="![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white)"
-    elif [[ "$state" == "open" ]]; then
-      badge="![open](https://img.shields.io/badge/open-238636?style=flat-square&logo=github&logoColor=white)"
-    else
-      badge="![closed](https://img.shields.io/badge/closed-da3633?style=flat-square&logo=github&logoColor=white)"
-    fi
+    case "$status" in
+      merged) badge="![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white)" ;;
+      open)   badge="![open](https://img.shields.io/badge/open-238636?style=flat-square&logo=github&logoColor=white)" ;;
+      *)      badge="![closed](https://img.shields.io/badge/closed-da3633?style=flat-square&logo=github&logoColor=white)" ;;
+    esac
 
     # Truncate long titles
     if [[ ${#title} -gt 60 ]]; then
