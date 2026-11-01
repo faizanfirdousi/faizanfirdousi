@@ -14,13 +14,13 @@ A curious CS student who loves learning, building, and tinkering with cool stuff
 <!-- DAILY_VISUAL_START -->
 <p align="left">
   <img
-    src="https://images.unsplash.com/photo-1433757741270-94a3bcadc2f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUyNzYzfDB8MXxyYW5kb218fHx8fHx8fHwxNzkzNTUwNTI0fA&ixlib=rb-4.1.0&q=80&w=1080"
+    src="https://images.unsplash.com/photo-1518168741044-13e051f834f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUyNzYzfDB8MXxyYW5kb218fHx8fHx8fHwxNzkzNTYzNzM2fA&ixlib=rb-4.1.0&q=80&w=1080"
     alt="Daily highlight"
     width="180"
   />
   <br/>
   <sub>
-    Photo by <a href="https://unsplash.com/@alexblock?utm_source=faizanfirdousi&utm_medium=referral">Alex Block</a> on
+    Photo by <a href="https://unsplash.com/@cjtagupa?utm_source=faizanfirdousi&utm_medium=referral">Cris Tagupa</a> on
     <a href="https://unsplash.com/?utm_source=faizanfirdousi&utm_medium=referral">Unsplash</a>
   </sub>
 </p>
