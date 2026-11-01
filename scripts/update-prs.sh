@@ -5,7 +5,7 @@ readonly README="README.md"
 readonly MARKER_START="<!-- PR_TRACKER_START -->"
 readonly MARKER_END="<!-- PR_TRACKER_END -->"
 readonly GH_USER="faizanfirdousi"
-readonly RECENT_LIMIT=5
+readonly RECENT_LIMIT=3
 
 log() {
   echo "[update-prs] $*"
@@ -79,7 +79,7 @@ build_pr_rows() {
       title="${title:0:57}..."
     fi
 
-    rows+="| [$title]($url) | \`$repo\` | $badge | $date |"$'\n'
+    rows+="| [$title]($url) | $badge |"$'\n'
   done < <(recent_prs "$json" "$limit")
 
   printf '%s' "$rows"
@@ -108,17 +108,24 @@ ${MARKER_START}
 
 </div>
 
-### 🕐 Recent PRs Raised
+<table width="100%"><tr>
+<td valign="top" width="50%">
 
-| Pull Request | Repository | Status | Updated |
-|---|---|:---:|:---:|
+**🕐 Recent Raised**
+
+| Pull Request | Status |
+|---|:---:|
 ${raised_rows}
+</td>
+<td valign="top" width="50%">
 
-### 🎉 Recent PRs Accepted
+**🎉 Recent Accepted**
 
-| Pull Request | Repository | Status | Updated |
-|---|---|:---:|:---:|
+| Pull Request | Status |
+|---|:---:|
 ${accepted_rows}
+</td>
+</tr></table>
 ${MARKER_END}
 EOF
 }

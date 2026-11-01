@@ -1,15 +1,46 @@
 <h1 align="left">Hi, I'm Faizan Firdousi</h1>
 
-<p align="left">
-  A curious Computer Science student who loves learning, building, and tinkering with cool stuff,
-  always digging into how things work underneath.
-</p>
+<table width="100%"><tr>
+<td valign="top">
 
-## Today's Highlight
+<p>A curious CS student who loves learning, building, and tinkering with cool stuff — always digging into how things work underneath.</p>
 
-<p align="center">
-  <em>A fresh curated photo every day, updated automatically by a GitHub Actions cron job.</em>
-</p>
+<br/>
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="28" title="Go" alt="Go" />&#8199;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="28" title="Python" alt="Python" />&#8199;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="28" title="Bash" alt="Bash" />&#8199;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="28" title="React" alt="React" />&#8199;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="28" title="Next.js" alt="Next.js" />&#8199;
+<img src="https://cdn.simpleicons.org/fastapi/009688" height="28" title="FastAPI" alt="FastAPI" />&#8199;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="28" title="Express.js" alt="Express.js" />&#8199;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="28" title="Docker" alt="Docker" />&#8199;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="28" title="Kubernetes" alt="Kubernetes" />&#8199;
+<img src="https://cdn.simpleicons.org/helm/0F1689" height="28" title="Helm" alt="Helm" />&#8199;
+<img src="https://cdn.simpleicons.org/githubactions/2088FF" height="28" title="GitHub Actions" alt="GitHub Actions" />&#8199;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" height="28" title="AWS" alt="AWS" />&#8199;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" height="28" title="Terraform" alt="Terraform" />&#8199;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" height="28" title="Prometheus" alt="Prometheus" />&#8199;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="28" title="PostgreSQL" alt="PostgreSQL" />&#8199;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="28" title="MySQL" alt="MySQL" />&#8199;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="28" title="Redis" alt="Redis" />&#8199;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="28" title="Git" alt="Git" />&#8199;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="28" title="Linux" alt="Linux" />&#8199;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="28" title="Nginx" alt="Nginx" />&#8199;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neovim/neovim-plain.svg" height="28" title="Neovim" alt="Neovim" />&#8199;
+<img src="https://cdn.simpleicons.org/cursor/000000" height="28" title="Cursor" alt="Cursor" />
+
+<br/><br/>
+
+<a href="https://faizn.site"><img src="https://img.shields.io/badge/Portfolio-faizn.site-000000?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>&#8199;
+<a href="mailto:faizanfirdousi.official@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>&#8199;
+<a href="https://github.com/faizanfirdousi"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>&#8199;
+<a href="https://linkedin.com/in/faizanfirdousi"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&#8199;
+<a href="https://dev.to/faizanfirdousi"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=flat-square&logo=devdotto&logoColor=white" alt="dev.to" /></a>&#8199;
+<a href="https://x.com/codoyevskyy"><img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X" /></a>
+
+</td>
+<td valign="top" align="center" width="180">
 
 <!-- DAILY_VISUAL_START -->
 <div align="center">
@@ -28,6 +59,9 @@
 </div>
 <!-- DAILY_VISUAL_END -->
 
+</td>
+</tr></table>
+
 ---
 
 ## Open Source Contributions
@@ -41,129 +75,28 @@
 
 </div>
 
-### 🕐 Recent PRs Raised
+<table width="100%"><tr>
+<td valign="top" width="50%">
 
-| Pull Request | Repository | Status | Updated |
-|---|---|:---:|:---:|
-| [fix(nb-699): panic-safe report savings sum and helper uni...](https://github.com/nudgebee/nudgebee/pull/700) | `nudgebee/nudgebee` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) | 2026-11-01 |
-| [fix(website): resolve navbar brand overlap and improve re...](https://github.com/volcano-sh/website/pull/594) | `volcano-sh/website` | ![open](https://img.shields.io/badge/open-238636?style=flat-square&logo=github&logoColor=white) | 2026-10-24 |
-| [fix: resolve github-metrics rendering and relative image ...](https://github.com/keploy/.github/pull/42) | `keploy/.github` | ![open](https://img.shields.io/badge/open-238636?style=flat-square&logo=github&logoColor=white) | 2026-09-29 |
-| [fix(kubernetes): extract images from initContainers and C...](https://github.com/pipe-cd/pipecd/pull/7374) | `pipe-cd/pipecd` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) | 2026-09-22 |
-| [docs: update postgres host line reference to line 47 in e...](https://github.com/keploy/docs/pull/907) | `keploy/docs` | ![open](https://img.shields.io/badge/open-238636?style=flat-square&logo=github&logoColor=white) | 2026-09-18 |
+**🕐 Recent Raised**
 
-### 🎉 Recent PRs Accepted
+| Pull Request | Status |
+|---|:---:|
+| [fix(nb-699): panic-safe report savings sum and helper uni...](https://github.com/nudgebee/nudgebee/pull/700) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) |
+| [fix(website): resolve navbar brand overlap and improve re...](https://github.com/volcano-sh/website/pull/594) | ![open](https://img.shields.io/badge/open-238636?style=flat-square&logo=github&logoColor=white) |
+| [fix: resolve github-metrics rendering and relative image ...](https://github.com/keploy/.github/pull/42) | ![open](https://img.shields.io/badge/open-238636?style=flat-square&logo=github&logoColor=white) |
 
-| Pull Request | Repository | Status | Updated |
-|---|---|:---:|:---:|
-| [fix(nb-699): panic-safe report savings sum and helper uni...](https://github.com/nudgebee/nudgebee/pull/700) | `nudgebee/nudgebee` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) | 2026-11-01 |
-| [fix(kubernetes): extract images from initContainers and C...](https://github.com/pipe-cd/pipecd/pull/7374) | `pipe-cd/pipecd` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) | 2026-09-22 |
-| [fix: correct broken hyperlink in README](https://github.com/llm-d/.github/pull/6) | `llm-d/.github` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) | 2026-05-18 |
-| [refactor: Move user input trimming from gateway to authz ...](https://github.com/the-monkeys/monkeys_brain/pull/321) | `the-monkeys/monkeys_brain` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) | 2025-10-03 |
-| [Create faizan.md newcomer](https://github.com/meshery/meshery/pull/15483) | `meshery/meshery` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) | 2025-07-31 |
+</td>
+<td valign="top" width="50%">
+
+**🎉 Recent Accepted**
+
+| Pull Request | Status |
+|---|:---:|
+| [fix(nb-699): panic-safe report savings sum and helper uni...](https://github.com/nudgebee/nudgebee/pull/700) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) |
+| [fix(kubernetes): extract images from initContainers and C...](https://github.com/pipe-cd/pipecd/pull/7374) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) |
+| [fix: correct broken hyperlink in README](https://github.com/llm-d/.github/pull/6) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) |
+
+</td>
+</tr></table>
 <!-- PR_TRACKER_END -->
-
----
-
-## Tech Stack
-
-**Languages & Scripting**
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="36" alt="Go" title="Go" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="36" alt="Python" title="Python" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="36" alt="Bash" title="Bash / Shell" />
-</div>
-
-**Frameworks**
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="36" alt="React" title="React" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="36" alt="Next.js" title="Next.js" />
-  <img width="10" />
-  <img src="https://cdn.simpleicons.org/fastapi/009688" height="36" alt="FastAPI" title="FastAPI" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="36" alt="Express.js" title="Express.js" />
-</div>
-
-**DevOps & Tools**
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="36" alt="Docker" title="Docker" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="36" alt="Docker Compose" title="Docker Compose" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="36" alt="Kubernetes" title="Kubernetes" />
-  <img width="10" />
-  <img src="https://cdn.simpleicons.org/helm/0F1689" height="36" alt="Helm" title="Helm" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="36" alt="Git" title="Git" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="36" alt="Linux" title="Linux" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="36" alt="Nginx" title="Nginx" />
-  <img width="10" />
-  <img src="https://cdn.simpleicons.org/githubactions/2088FF" height="36" alt="GitHub Actions" title="GitHub Actions" />
-</div>
-
-**Cloud**
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" height="36" alt="AWS" title="AWS" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" height="36" alt="Terraform" title="Terraform / HCL" />
-</div>
-
-**Monitoring & Databases**
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" height="36" alt="Prometheus" title="Prometheus" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="36" alt="PostgreSQL" title="PostgreSQL" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="36" alt="MySQL" title="MySQL" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="36" alt="Redis" title="Redis" />
-</div>
-
-**Dev Environment**
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neovim/neovim-plain.svg" height="36" alt="Neovim" title="Neovim" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="36" alt="Omarchy" title="Omarchy / Linux" />
-  <img width="10" />
-  <img src="https://cdn.simpleicons.org/cursor/000000" height="36" alt="Cursor" title="Cursor" />
-</div>
-
----
-
-## Portfolio & Socials
-
-<div align="left">
-  <a href="https://faizn.site">
-    <img src="https://img.shields.io/badge/Portfolio-faizn.site-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
-  </a>
-</div>
-
-<br />
-
-<div align="left">
-  <a href="mailto:faizanfirdousi.official@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://github.com/faizanfirdousi">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://linkedin.com/in/faizanfirdousi">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://dev.to/faizanfirdousi">
-    <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="dev.to" />
-  </a>
-  <a href="https://x.com/codoyevskyy">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
-  </a>
-</div>
