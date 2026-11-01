@@ -16,7 +16,7 @@
   <img
     src="https://images.unsplash.com/photo-1484807352052-23338990c6c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUyNzYzfDB8MXxyYW5kb218fHx8fHx8fHwxNzkzNTA2MjQ2fA&ixlib=rb-4.1.0&q=80&w=1080"
     alt="Daily highlight"
-    style="display: block; margin: 0 auto; max-width: 800px; max-height: 420px; width: 100%; height: auto; object-fit: contain; border-radius: 8px;"
+    style="display: block; margin: 0 auto; max-width: 400px; max-height: 210px; width: 100%; height: auto; object-fit: contain; border-radius: 8px;"
   />
 
   <p align="center">
