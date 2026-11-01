@@ -37,7 +37,7 @@
 
 | 📬 PRs Raised | ✅ PRs Accepted (Merged) |
 |:---:|:---:|
-| **—** | **—** |
+| **8** | **5** |
 
 </div>
 
@@ -45,13 +45,21 @@
 
 | Pull Request | Repository | Status | Updated |
 |---|---|:---:|:---:|
-| *Updating…* | — | — | — |
+| [fix(nb-699): panic-safe report savings sum and helper uni...](https://github.com/nudgebee/nudgebee/pull/700) | `nudgebee/nudgebee` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) | 2026-11-01 |
+| [fix(website): resolve navbar brand overlap and improve re...](https://github.com/volcano-sh/website/pull/594) | `volcano-sh/website` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) |  |
+| [fix: resolve github-metrics rendering and relative image ...](https://github.com/keploy/.github/pull/42) | `keploy/.github` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) |  |
+| [fix(kubernetes): extract images from initContainers and C...](https://github.com/pipe-cd/pipecd/pull/7374) | `pipe-cd/pipecd` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) | 2026-09-22 |
+| [docs: update postgres host line reference to line 47 in e...](https://github.com/keploy/docs/pull/907) | `keploy/docs` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) |  |
 
 ### 🎉 Recent PRs Accepted
 
 | Pull Request | Repository | Status | Updated |
 |---|---|:---:|:---:|
-| *Updating…* | — | — | — |
+| [fix(nb-699): panic-safe report savings sum and helper uni...](https://github.com/nudgebee/nudgebee/pull/700) | `nudgebee/nudgebee` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) | 2026-11-01 |
+| [fix(kubernetes): extract images from initContainers and C...](https://github.com/pipe-cd/pipecd/pull/7374) | `pipe-cd/pipecd` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) | 2026-09-22 |
+| [fix: correct broken hyperlink in README](https://github.com/llm-d/.github/pull/6) | `llm-d/.github` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) | 2026-05-18 |
+| [refactor: Move user input trimming from gateway to authz ...](https://github.com/the-monkeys/monkeys_brain/pull/321) | `the-monkeys/monkeys_brain` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) | 2025-10-03 |
+| [Create faizan.md newcomer](https://github.com/meshery/meshery/pull/15483) | `meshery/meshery` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) | 2025-07-31 |
 <!-- PR_TRACKER_END -->
 
 ---
