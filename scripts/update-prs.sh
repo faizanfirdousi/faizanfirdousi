@@ -74,12 +74,12 @@ build_pr_rows() {
       *)      badge="![closed](https://img.shields.io/badge/closed-da3633?style=flat-square&logo=github&logoColor=white)" ;;
     esac
 
-    # Truncate long titles
-    if [[ ${#title} -gt 60 ]]; then
-      title="${title:0:57}..."
+    # Truncate long titles cleanly
+    if [[ ${#title} -gt 55 ]]; then
+      title="${title:0:52}..."
     fi
 
-    rows+="| [$title]($url) | $badge |"$'\n'
+    rows+="- **$repo** · [$title]($url) $badge"$'\n'
   done < <(recent_prs "$json" "$limit")
 
   printf '%s' "$rows"
@@ -100,32 +100,17 @@ write_section() {
 
   cat > "$section_file" <<EOF
 ${MARKER_START}
-<div align="center">
+<p align="left">
+  <img src="https://img.shields.io/badge/PRs_Raised-${total_raised}-2088FF?style=flat-square&logo=github&logoColor=white" alt="PRs Raised" />
+  <img src="https://img.shields.io/badge/PRs_Accepted-${total_accepted}-8957e5?style=flat-square&logo=git-merge&logoColor=white" alt="PRs Accepted" />
+</p>
 
-| 📬 PRs Raised | ✅ PRs Accepted (Merged) |
-|:---:|:---:|
-| **${total_raised}** | **${total_accepted}** |
+#### 🕐 Recent PRs Raised
 
-</div>
-
-<table width="100%"><tr>
-<td valign="top" width="50%">
-
-**🕐 Recent Raised**
-
-| Pull Request | Status |
-|---|:---:|
 ${raised_rows}
-</td>
-<td valign="top" width="50%">
+#### 🎉 Recent PRs Accepted
 
-**🎉 Recent Accepted**
-
-| Pull Request | Status |
-|---|:---:|
 ${accepted_rows}
-</td>
-</tr></table>
 ${MARKER_END}
 EOF
 }

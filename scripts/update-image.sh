@@ -108,20 +108,18 @@ write_section_file() {
 
   cat > "$section_file" <<EOF
 ${MARKER_START}
-<div align="center">
+<p align="left">
   <img
     src="${image_url}"
     alt="Daily highlight"
-    style="display: block; margin: 0 auto; max-width: 150px; max-height: 80px; width: 100%; height: auto; object-fit: contain; border-radius: 6px;"
+    width="180"
   />
-
-  <p align="center">
-    <sub>
-      Photo by <a href="${photographer_url_with_utm}">${photographer_name}</a> on
-      <a href="${unsplash_home_url}">Unsplash</a>
-    </sub>
-  </p>
-</div>
+  <br/>
+  <sub>
+    Photo by <a href="${photographer_url_with_utm}">${photographer_name}</a> on
+    <a href="${unsplash_home_url}">Unsplash</a>
+  </sub>
+</p>
 ${MARKER_END}
 EOF
 
