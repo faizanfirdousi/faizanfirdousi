@@ -59,19 +59,18 @@ A curious CS student who loves learning, building, and tinkering with cool stuff
 
 <!-- PR_TRACKER_START -->
 <p align="left">
-  <img src="https://img.shields.io/badge/PRs_Raised-8-2088FF?style=flat-square&logo=github&logoColor=white" alt="PRs Raised" />
+  <img src="https://img.shields.io/badge/PRs_Raised-9-2088FF?style=flat-square&logo=github&logoColor=white" alt="PRs Raised" />
   <img src="https://img.shields.io/badge/PRs_Accepted-5-8957e5?style=flat-square&logo=git-merge&logoColor=white" alt="PRs Accepted" />
 </p>
 
 #### 🕐 Recent PRs Raised
 
-- **nudgebee/nudgebee** · [fix(nb-699): panic-safe report savings sum and helper uni...](https://github.com/nudgebee/nudgebee/pull/700) ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white)
-- **volcano-sh/website** · [fix(website): resolve navbar brand overlap and improve re...](https://github.com/volcano-sh/website/pull/594) ![open](https://img.shields.io/badge/open-238636?style=flat-square&logo=github&logoColor=white)
-- **keploy/.github** · [fix: resolve github-metrics rendering and relative image ...](https://github.com/keploy/.github/pull/42) ![open](https://img.shields.io/badge/open-238636?style=flat-square&logo=github&logoColor=white)
-
+- **llm-d/llm-d-inference-sim** · [Validate port is within valid TCP range (1-65535)](https://github.com/llm-d/llm-d-inference-sim/pull/854) ![open](https://img.shields.io/badge/open-238636?style=flat-square&logo=github&logoColor=white)
+- **nudgebee/nudgebee** · [fix(nb-699): panic-safe report savings sum and helpe...](https://github.com/nudgebee/nudgebee/pull/700) ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white)
+- **volcano-sh/website** · [fix(website): resolve navbar brand overlap and impro...](https://github.com/volcano-sh/website/pull/594) ![open](https://img.shields.io/badge/open-238636?style=flat-square&logo=github&logoColor=white)
 #### 🎉 Recent PRs Accepted
 
-- **nudgebee/nudgebee** · [fix(nb-699): panic-safe report savings sum and helper uni...](https://github.com/nudgebee/nudgebee/pull/700) ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white)
-- **pipe-cd/pipecd** · [fix(kubernetes): extract images from initContainers and C...](https://github.com/pipe-cd/pipecd/pull/7374) ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white)
+- **nudgebee/nudgebee** · [fix(nb-699): panic-safe report savings sum and helpe...](https://github.com/nudgebee/nudgebee/pull/700) ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white)
+- **pipe-cd/pipecd** · [fix(kubernetes): extract images from initContainers ...](https://github.com/pipe-cd/pipecd/pull/7374) ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white)
 - **llm-d/.github** · [fix: correct broken hyperlink in README](https://github.com/llm-d/.github/pull/6) ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white)
 <!-- PR_TRACKER_END -->
