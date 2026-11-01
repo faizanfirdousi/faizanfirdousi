@@ -30,6 +30,32 @@
 
 ---
 
+## Open Source Contributions
+
+<!-- PR_TRACKER_START -->
+<div align="center">
+
+| 📬 PRs Raised | ✅ PRs Accepted (Merged) |
+|:---:|:---:|
+| **—** | **—** |
+
+</div>
+
+### 🕐 Recent PRs Raised
+
+| Pull Request | Repository | Status | Updated |
+|---|---|:---:|:---:|
+| *Updating…* | — | — | — |
+
+### 🎉 Recent PRs Accepted
+
+| Pull Request | Repository | Status | Updated |
+|---|---|:---:|:---:|
+| *Updating…* | — | — | — |
+<!-- PR_TRACKER_END -->
+
+---
+
 ## Tech Stack
 
 **Languages & Scripting**
