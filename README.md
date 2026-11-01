@@ -46,10 +46,10 @@
 | Pull Request | Repository | Status | Updated |
 |---|---|:---:|:---:|
 | [fix(nb-699): panic-safe report savings sum and helper uni...](https://github.com/nudgebee/nudgebee/pull/700) | `nudgebee/nudgebee` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) | 2026-11-01 |
-| [fix(website): resolve navbar brand overlap and improve re...](https://github.com/volcano-sh/website/pull/594) | `volcano-sh/website` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) |  |
-| [fix: resolve github-metrics rendering and relative image ...](https://github.com/keploy/.github/pull/42) | `keploy/.github` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) |  |
+| [fix(website): resolve navbar brand overlap and improve re...](https://github.com/volcano-sh/website/pull/594) | `volcano-sh/website` | ![open](https://img.shields.io/badge/open-238636?style=flat-square&logo=github&logoColor=white) | 2026-10-24 |
+| [fix: resolve github-metrics rendering and relative image ...](https://github.com/keploy/.github/pull/42) | `keploy/.github` | ![open](https://img.shields.io/badge/open-238636?style=flat-square&logo=github&logoColor=white) | 2026-09-29 |
 | [fix(kubernetes): extract images from initContainers and C...](https://github.com/pipe-cd/pipecd/pull/7374) | `pipe-cd/pipecd` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) | 2026-09-22 |
-| [docs: update postgres host line reference to line 47 in e...](https://github.com/keploy/docs/pull/907) | `keploy/docs` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) |  |
+| [docs: update postgres host line reference to line 47 in e...](https://github.com/keploy/docs/pull/907) | `keploy/docs` | ![open](https://img.shields.io/badge/open-238636?style=flat-square&logo=github&logoColor=white) | 2026-09-18 |
 
 ### 🎉 Recent PRs Accepted
 
