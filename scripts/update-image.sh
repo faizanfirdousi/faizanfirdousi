@@ -112,7 +112,7 @@ ${MARKER_START}
   <img
     src="${image_url}"
     alt="Daily highlight"
-    style="display: block; margin: 0 auto; max-width: 400px; max-height: 210px; width: 100%; height: auto; object-fit: contain; border-radius: 8px;"
+    style="display: block; margin: 0 auto; max-width: 220px; max-height: 115px; width: 100%; height: auto; object-fit: contain; border-radius: 8px;"
   />
 
   <p align="center">
