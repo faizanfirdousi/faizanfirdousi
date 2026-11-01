@@ -85,7 +85,6 @@
 | [fix(nb-699): panic-safe report savings sum and helper uni...](https://github.com/nudgebee/nudgebee/pull/700) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) |
 | [fix(website): resolve navbar brand overlap and improve re...](https://github.com/volcano-sh/website/pull/594) | ![open](https://img.shields.io/badge/open-238636?style=flat-square&logo=github&logoColor=white) |
 | [fix: resolve github-metrics rendering and relative image ...](https://github.com/keploy/.github/pull/42) | ![open](https://img.shields.io/badge/open-238636?style=flat-square&logo=github&logoColor=white) |
-
 </td>
 <td valign="top" width="50%">
 
@@ -96,7 +95,6 @@
 | [fix(nb-699): panic-safe report savings sum and helper uni...](https://github.com/nudgebee/nudgebee/pull/700) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) |
 | [fix(kubernetes): extract images from initContainers and C...](https://github.com/pipe-cd/pipecd/pull/7374) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) |
 | [fix: correct broken hyperlink in README](https://github.com/llm-d/.github/pull/6) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white) |
-
 </td>
 </tr></table>
 <!-- PR_TRACKER_END -->
