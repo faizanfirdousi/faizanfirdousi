@@ -2,7 +2,7 @@ name: Update PR Tracker
 
 on:
   schedule:
-    - cron: "0 1 * * *"   # runs daily at 01:00 UTC, just after the daily visual
+    - cron: "0 */6 * * *"   # runs every 6 hours
   workflow_dispatch:
 
 concurrency:

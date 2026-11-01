@@ -165,13 +165,23 @@ main() {
     fail "README file not found: $README"
   fi
 
-  log "Fetching PRs raised by ${GH_USER}..."
-  local raised_json
-  raised_json="$(gh_search "type:pr author:${GH_USER} -user:${GH_USER}")"
+  log "Fetching PRs raised and accepted by ${GH_USER} (parallel)..."
+  local raised_file accepted_file
+  raised_file="$(mktemp)"
+  accepted_file="$(mktemp)"
 
-  log "Fetching PRs accepted (merged) from ${GH_USER}..."
-  local accepted_json
-  accepted_json="$(gh_search "type:pr author:${GH_USER} is:merged -user:${GH_USER}")"
+  gh_search "type:pr author:${GH_USER} -user:${GH_USER}" > "$raised_file" &
+  local pid_raised=$!
+  gh_search "type:pr author:${GH_USER} is:merged -user:${GH_USER}" > "$accepted_file" &
+  local pid_accepted=$!
+
+  wait "$pid_raised"  || fail "Failed to fetch PRs raised"
+  wait "$pid_accepted" || fail "Failed to fetch PRs accepted"
+
+  local raised_json accepted_json
+  raised_json="$(cat "$raised_file")"
+  accepted_json="$(cat "$accepted_file")"
+  rm -f "$raised_file" "$accepted_file"
 
   local total_raised total_accepted
   total_raised="$(count_items "$raised_json")"
