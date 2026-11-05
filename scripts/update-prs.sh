@@ -67,11 +67,11 @@ build_pr_rows() {
 
   # status is a clean string: "open" | "merged" | "closed" — resolved by jq
   while IFS=$'\t' read -r url repo title status date; do
-    local label
+    local badge
     case "$status" in
-      merged) label="Merged" ;;
-      open)   label="Open" ;;
-      *)      label="Closed" ;;
+      merged) badge="![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white)" ;;
+      open)   badge="![open](https://img.shields.io/badge/open-238636?style=flat-square&logo=github&logoColor=white)" ;;
+      *)      badge="![closed](https://img.shields.io/badge/closed-da3633?style=flat-square&logo=github&logoColor=white)" ;;
     esac
 
     # Truncate long titles cleanly
@@ -79,7 +79,7 @@ build_pr_rows() {
       title="${title:0:52}..."
     fi
 
-    rows+="- **$repo** · [$title]($url) · $label"$'\n'
+    rows+="- **$repo** · [$title]($url) $badge"$'\n'
   done < <(recent_prs "$json" "$limit")
 
   printf '%s' "$rows"
