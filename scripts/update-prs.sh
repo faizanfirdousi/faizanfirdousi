@@ -65,13 +65,13 @@ build_pr_rows() {
   local limit="$2"
   local rows=""
 
-  # status is now a clean string: "open" | "merged" | "closed" — resolved by jq
+  # status is a clean string: "open" | "merged" | "closed" — resolved by jq
   while IFS=$'\t' read -r url repo title status date; do
-    local badge
+    local label
     case "$status" in
-      merged) badge="![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white)" ;;
-      open)   badge="![open](https://img.shields.io/badge/open-238636?style=flat-square&logo=github&logoColor=white)" ;;
-      *)      badge="![closed](https://img.shields.io/badge/closed-da3633?style=flat-square&logo=github&logoColor=white)" ;;
+      merged) label="Merged" ;;
+      open)   label="Open" ;;
+      *)      label="Closed" ;;
     esac
 
     # Truncate long titles cleanly
@@ -79,7 +79,7 @@ build_pr_rows() {
       title="${title:0:52}..."
     fi
 
-    rows+="- **$repo** · [$title]($url) $badge"$'\n'
+    rows+="- **$repo** · [$title]($url) · $label"$'\n'
   done < <(recent_prs "$json" "$limit")
 
   printf '%s' "$rows"
@@ -87,30 +87,26 @@ build_pr_rows() {
 
 write_section() {
   local raised_json="$1"
-  local accepted_json="$2"
+  local merged_json="$2"
   local section_file="$3"
 
-  local total_raised total_accepted
+  local total_raised total_merged
   total_raised="$(count_items "$raised_json")"
-  total_accepted="$(count_items "$accepted_json")"
+  total_merged="$(count_items "$merged_json")"
 
-  local raised_rows accepted_rows
-  raised_rows="$(build_pr_rows "$raised_json" "$RECENT_LIMIT")"
-  accepted_rows="$(build_pr_rows "$accepted_json" "$RECENT_LIMIT")"
+  local recent_rows
+  recent_rows="$(build_pr_rows "$raised_json" "$RECENT_LIMIT")"
 
   cat > "$section_file" <<EOF
 ${MARKER_START}
 <p align="left">
   <img src="https://img.shields.io/badge/PRs_Raised-${total_raised}-2088FF?style=flat-square&logo=github&logoColor=white" alt="PRs Raised" />
-  <img src="https://img.shields.io/badge/PRs_Accepted-${total_accepted}-8957e5?style=flat-square&logo=git-merge&logoColor=white" alt="PRs Accepted" />
+  <img src="https://img.shields.io/badge/PRs_Merged-${total_merged}-8957e5?style=flat-square&logo=git-merge&logoColor=white" alt="PRs Merged" />
 </p>
 
-#### 🕐 Recent PRs Raised
+#### Recent Contributions
 
-${raised_rows}
-#### 🎉 Recent PRs Accepted
-
-${accepted_rows}
+${recent_rows}
 ${MARKER_END}
 EOF
 }
@@ -157,37 +153,37 @@ main() {
     fail "README file not found: $README"
   fi
 
-  log "Fetching PRs raised and accepted by ${GH_USER} (parallel)..."
-  local raised_file accepted_file
+  log "Fetching PRs raised and merged by ${GH_USER} (parallel)..."
+  local raised_file merged_file
   raised_file="$(mktemp)"
-  accepted_file="$(mktemp)"
+  merged_file="$(mktemp)"
 
   gh_search "type:pr author:${GH_USER} -user:${GH_USER}" > "$raised_file" &
   local pid_raised=$!
-  gh_search "type:pr author:${GH_USER} is:merged -user:${GH_USER}" > "$accepted_file" &
-  local pid_accepted=$!
+  gh_search "type:pr author:${GH_USER} is:merged -user:${GH_USER}" > "$merged_file" &
+  local pid_merged=$!
 
   wait "$pid_raised"  || fail "Failed to fetch PRs raised"
-  wait "$pid_accepted" || fail "Failed to fetch PRs accepted"
+  wait "$pid_merged" || fail "Failed to fetch merged PRs"
 
-  local raised_json accepted_json
+  local raised_json merged_json
   raised_json="$(cat "$raised_file")"
-  accepted_json="$(cat "$accepted_file")"
-  rm -f "$raised_file" "$accepted_file"
+  merged_json="$(cat "$merged_file")"
+  rm -f "$raised_file" "$merged_file"
 
-  local total_raised total_accepted
+  local total_raised total_merged
   total_raised="$(count_items "$raised_json")"
-  total_accepted="$(count_items "$accepted_json")"
-  log "Found ${total_raised} PRs raised, ${total_accepted} merged"
+  total_merged="$(count_items "$merged_json")"
+  log "Found ${total_raised} PRs raised, ${total_merged} merged"
 
   local section_file
   section_file="$(mktemp)"
   trap "rm -f '$section_file'" EXIT
 
-  write_section "$raised_json" "$accepted_json" "$section_file"
+  write_section "$raised_json" "$merged_json" "$section_file"
   replace_readme_section "$section_file"
 
-  log "README updated with PR tracker (${total_raised} raised, ${total_accepted} merged)"
+  log "README updated with PR tracker (${total_raised} raised, ${total_merged} merged)"
 }
 
 main "$@"

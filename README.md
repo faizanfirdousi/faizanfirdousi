@@ -60,17 +60,12 @@ A curious CS student who loves learning, building, and tinkering with cool stuff
 <!-- PR_TRACKER_START -->
 <p align="left">
   <img src="https://img.shields.io/badge/PRs_Raised-10-2088FF?style=flat-square&logo=github&logoColor=white" alt="PRs Raised" />
-  <img src="https://img.shields.io/badge/PRs_Accepted-7-8957e5?style=flat-square&logo=git-merge&logoColor=white" alt="PRs Accepted" />
+  <img src="https://img.shields.io/badge/PRs_Merged-7-8957e5?style=flat-square&logo=git-merge&logoColor=white" alt="PRs Merged" />
 </p>
 
-#### 🕐 Recent PRs Raised
+#### Recent Contributions
 
-- **llm-d/llm-d-router** · [fix(epp): clear paused state when an endpoint leaves...](https://github.com/llm-d/llm-d-router/pull/3997) ![open](https://img.shields.io/badge/open-238636?style=flat-square&logo=github&logoColor=white)
-- **nudgebee/nudgebee** · [fix(nb-699): panic-safe report savings sum and helpe...](https://github.com/nudgebee/nudgebee/pull/700) ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white)
-- **llm-d/llm-d-inference-sim** · [Validate port is within valid TCP range (1-65535)](https://github.com/llm-d/llm-d-inference-sim/pull/854) ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white)
-#### 🎉 Recent PRs Accepted
-
-- **nudgebee/nudgebee** · [fix(nb-699): panic-safe report savings sum and helpe...](https://github.com/nudgebee/nudgebee/pull/700) ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white)
-- **llm-d/llm-d-inference-sim** · [Validate port is within valid TCP range (1-65535)](https://github.com/llm-d/llm-d-inference-sim/pull/854) ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white)
-- **volcano-sh/website** · [fix(website): resolve navbar brand overlap and impro...](https://github.com/volcano-sh/website/pull/594) ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=git-merge&logoColor=white)
+- **llm-d/llm-d-router** · [fix(epp): clear paused state when an endpoint leaves...](https://github.com/llm-d/llm-d-router/pull/3997) · Open
+- **nudgebee/nudgebee** · [fix(nb-699): panic-safe report savings sum and helpe...](https://github.com/nudgebee/nudgebee/pull/700) · Merged
+- **llm-d/llm-d-inference-sim** · [Validate port is within valid TCP range (1-65535)](https://github.com/llm-d/llm-d-inference-sim/pull/854) · Merged
 <!-- PR_TRACKER_END -->
